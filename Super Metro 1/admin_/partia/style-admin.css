@@ -1,0 +1,124 @@
+/* CSS for all*/
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+.clear-fix {
+    float: none;
+    clear: both;
+}
+/*CSS for table */
+.tbl-1 {
+    width: 100%;
+}
+.tbl-2 {
+    width: 30%;
+}
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td {
+    padding: 1%;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+/*CSS for menu */
+.menu {
+    border-bottom: 1px solid grey;
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+.menu ul li a:hover {
+    color: blue;
+}
+/* Main content*/
+.main-content {
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.col-4 {
+    width: 25%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+/*button CSS */
+.btn-blue {
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-blue:hover {
+    background-color: #3742fa;
+}
+.btn-green {
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-green:hover {
+    background-color: #2ed573;
+}
+.btn-red {
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-red:hover {
+    background-color: #ff4757;
+}
+.success {
+    color: #2ed573;
+}
+.error {
+    color: #ff4757;
+}
+/* CSS for footer */
+.footer {
+    background-color: blueviolet;
+    color: white;
+}
+.a-footer {
+    color: black;
+}
+/*CSS for login */
+.login {
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}

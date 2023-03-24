@@ -1,0 +1,190 @@
+/*CSS for all*/
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive {
+    width: 100%;
+}
+.img-curve {
+    border-radius: 15px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-white {
+    color: white;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-blue {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.btn-blue:hover {
+    color: white;
+    background-color: blue;
+}
+.success {
+    color: #2ed573;
+}
+.error {
+    color: #ff4757;
+}
+/*CSS for navbar */
+.menu {
+    line-height: 60px;
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+/*Search-bus section*/
+.search-bus {
+    background-image: url(Pics/chuttersnap-O_boSKI5ZFY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.search-bus input {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/*CSS for mobile size or smaller screen*/
+@media only screen and (max-width:768px){
+.search-bus input[type ="search"] {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+}
+/*CSS for available bus*/
+.available-bus {
+    background-color: #ececec;
+    padding: 5% 0;
+}
+.available-bus-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+.bus-img {
+    width: 20%;
+    float: left;
+}
+.vehicle-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.vehicle-price {
+    font-size: 1rem;
+    margin: 2% 0;
+}
+.vehicle-detail {
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+/* Bus search section*/
+.bus-search {
+    background-image: url(Pics/ep3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.bus-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+
+}
+/* Book section CSS */
+.book {
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.book-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+/*About us page */
+.about {
+    background-image: url(Pics/ep5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+}
+/* Pay page */
+.pay {
+    border: 1px solid grey;
+    width: 30%;
+    margin: 5% auto;
+    padding: 1%;
+}
+/*footer section */
+.footer-main {
+    background-color: grey;
+    color: white;
+}
+.a-footer {
+    color: black;
+}
